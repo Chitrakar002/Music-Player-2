@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+.container{
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(7, 83, 224),rgb(72, 199, 250),rgb(132, 252, 252) );
+    width: 400px;
+    height:600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    /* box-shadow: -6px -6px 10px rgb(250, 72, 102); */
+
+
+}
+/* section 1 */
+.nav{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 50px;
+    font-family: Pristina;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.circle{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(7, 83, 224),rgb(72, 199, 250) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(34, 19, 19);
+    
+
+}
+/* section 2 */
+.thumnail{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.image1{
+    width:230px;
+    height:230px;
+    border-radius: 50%;
+    border:4px solid rgb(68, 204, 228);
+    box-shadow: 5px 3px 15px rgb(34, 19, 19);
+    object-fit: cover;
+}
+#movieName{
+    font-family: Segoe Print;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+.singer{
+    font-family: Bradley Hand ITC;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -15px;
+
+}
+/* section 3 */
+.love{
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.circle2{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(12, 67, 168),rgb(55, 180, 230) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgb(34, 19, 19);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+.loop{
+    background-image: linear-gradient(rgb(14, 75, 2),rgb(29, 212, 5));
+        color:rgb(255, 255, 255);
+}
+/* section 4 */
+.range-div{
+    width:100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.range{
+    width:100%;
+    -webkit-appearance: none;
+    height: 5px;
+    background: rgb(94, 172, 196);
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px rgb(95, 178, 255);
+
+    /* border: 1px solid black; */
+    -webkit-transition: .2s;
+    
+}
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(rgb(7, 83, 224),rgb(72, 199, 250));
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px rgb(129, 15, 85);
+
+}
+.range::-moz-range-thumb{
+    width:20px;
+    height:20px;
+    background: rgb(12, 115, 212);
+    cursor: pointer;
+}
+.time{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+/* section 5 */
+.footer{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.circle3{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: rgb(238, 250, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color:linear-gradient(rgb(7, 83, 224),rgb(72, 199, 250)); */
+    box-shadow: 3px 3px 8px rgb(34, 19, 19);
+    cursor: pointer;
+
+
+}
+.icon{
+    background: linear-gradient(rgb(7, 52, 136),rgb(45, 192, 250),rgb(12, 59, 104));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.icon{
+    font-size: 25px;
+}
+#audio{
+    display: none;
+}
